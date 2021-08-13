@@ -57,3 +57,6 @@ plugins:
 =======
 theme: jekyll-theme-architect
 >>>>>>> b009f1d00a9f650a959879eb4cec31456c7255ae
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
