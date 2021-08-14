@@ -4,6 +4,7 @@ title:  "Welcome to Jekyll!"
 date:   2021-08-14 20:28:52 +0700
 categories: jekyll update
 ---
+# Local hosting
 Creating site
 ```console
 > jekyll new site.io
@@ -11,6 +12,15 @@ Creating site
 Run site
 ```console
 > bundle exec jekyll serve
+```
+# Github hosting
+```console
+> git init
+> git checkout -b gh-pages
+>  git add .
+> git commit -m "Initial commit"
+> git remote add origin https://github.com/tichuot287/site.io
+> git push origin gh-pages
 ```
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
