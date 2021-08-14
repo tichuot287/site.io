@@ -1,6 +1,6 @@
 ---
-layout: ""
+layout: "page"
 title: Donate
-# permalink: /donate/
+permalink: /donate/
 ---
 Buy me a coffee
